@@ -3,7 +3,7 @@ import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 import { useConnection, useWallet } from '@solana/wallet-adapter-react';
 import { Program, AnchorProvider, web3 } from '@project-serum/anchor';
 import { PublicKey } from '@solana/web3.js';
-import idl from './idl.json';
+import idl from '../idl.json';
 
 const programID = new PublicKey('HYpYfKbHBsr2KtsviGF5miA47kykMvqCjYdoAC6ckgDa');
 

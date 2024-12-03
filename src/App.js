@@ -1,5 +1,5 @@
 import { WalletContextProvider } from './WalletContextProvider';
-import CounterApp from './CounterApp';
+import CounterApp from './components/CounterApp';
 
 function App() {
   return (
